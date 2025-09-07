@@ -36,7 +36,7 @@ $ helm uninstall --namespace listmonk listmonk
 | listmonk.admin.password            | string | `""`                  | the admin password                                                                                             |
 | listmonk.admin.username            | string | `""`                  | the admin username                                                                                             |
 | listmonk.image.repository          | string | `"listmonk/listmonk"` | the listmonk image repository                                                                                  |
-| listmonk.image.tag                 | string | `"v5.0.3-2"`            | the listmonk image tag                                                                                         |
+| listmonk.image.tag                 | string | `"v5.0.3"`            | the listmonk image tag                                                                                         |
 | listmonk.replicas                  | int    | `1`                   | the number of listmonk deployment replicas                                                                     |
 | postgres.database                  | string | `"listmonk"`          | the postgres database name                                                                                     |
 | postgres.enabled                   | bool   | `true`                | enable internal postgres                                                                                       |
